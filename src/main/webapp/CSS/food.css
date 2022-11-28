@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1150px;
+    height: 200px;
+    position: relative;
+    background-color: #dad9ff;
+}
+#logo {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    float: left;
+    background-color: #ccc;
+}
+#logo1:hover {
+    background-color: #a4a1ee;
+}
+#Tripadvisor {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 20px 10px 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+#Tripadvisor:hover {
+    background-color: #a4a1ee;
+}
+#top_menu {
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    color: black;
+}
+#top_menu a {
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 8px 10px 10px 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#top_menu a:hover {
+    background-color: #a4a1ee;
+}
+
+#sessionID {
+	position: relative;
+    top: 50px;
+}
+#loginBtn {
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: -10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#loginBtn:hover {
+    background-color: #a4a1ee;
+}
+nav {
+    position: relative;
+    top:200px;
+    width: 1150px;
+    height: 150px;
+    border-bottom: 2px solid #ccc;
+}
+nav h1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: black;
+}
+nav li {
+    display: inline;
+    font-size: 20px;
+    width: 100px;
+    height: 300px;
+}
+nav li a {
+    position: relative;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-left:  2px solid black;
+    padding: 20px 80px;
+    font-weight: bold;
+}
+#rr{ 
+    border-right: 2px solid black;
+    padding: 20px 0 ;
+}
+#food1 {
+    color: white;
+    background-color: black;
+}
+h2 {
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+#food_list {
+    position: relative;
+    top: 230px;
+    width: 1000px;
+    height: 1035px;
+}
+h3 {
+    background-color: #999999;
+    text-align: center;
+    
+}
+.food li {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px
+}
+.food li a {
+    position: relative;
+    color: white;
+}
+.food li a:hover {
+    color:black
+}
+.food li img {
+    width: 220px;
+    height: 165px;
+}

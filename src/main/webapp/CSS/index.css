@@ -1,0 +1,284 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1150px;
+    height: 200px;
+    position: relative;
+    background-color: #dad9ff;
+}
+#logo {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    float: left;
+    background-color: #ccc;
+}
+#logo1:hover {
+    background-color: #a4a1ee;
+}
+#Tripadvisor {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    color: black;
+    border: 2px solid black;
+    padding: 5px 20px 10px 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+#Tripadvisor:hover {
+    background-color: #a4a1ee;
+}
+#top_menu {
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    right: 200px;
+    color: black;
+}
+#top_menu a {
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    padding: 8px 10px 10px 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#top_menu a:hover {
+    background-color: #a4a1ee;
+}
+#sessionID {
+	position: relative;
+    top: 50px;
+}
+
+#loginBtn {
+    position: absolute;
+    float: right;
+    right: -30px;
+    top: -10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#loginBtn:hover {
+    background-color: #a4a1ee;
+}
+nav {
+    position: relative;
+    top:200px;
+    width: 1150px;
+    height: 150px;
+    border-bottom: 2px solid #ccc;
+}
+nav h1 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: black;
+}
+nav li {
+    display: inline;
+    font-size: 20px;
+    width: 100px;
+    height: 300px;
+}
+nav li a {
+    position: relative;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border-left:  2px solid black;
+    padding: 20px 80px;
+    font-weight: bold;
+}
+#rr{ 
+    border-right: 2px solid black;
+    padding: 20px 0 ;
+}
+#top3 {
+    margin-top: 180px;
+    position: relative;
+    width: 1600px;
+    height: 430px;
+}
+#top3 img:hover {
+    opacity: 0.7;
+}
+#korea {
+    position: absolute;
+    left: 220px;
+    width: 600px;
+    height: 350px;
+}
+#photo {
+    position: relative;
+    width: 550px;
+    height: 400px;
+    left: 300px;
+}
+#top4 {
+    position: relative;
+    height: 350px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#top4 >div {
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+#top4 h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-left: -1050px;
+}
+#top4 img {
+    width: 300px;
+    height: 300px;
+    transition: all 0.5s linear;
+    object-fit: none;
+}
+#top4 img:hover, #top4 >div >h2:hover, #top4 >div >p:hover {
+    transform: scale(1.2);
+}
+#top4 >div >h2 {
+    margin-top: -150px;
+    padding: 5px;
+    
+}
+#top4 >div >h2 {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: white;
+    z-index: 10;
+}
+#top4 >div >p {
+    position: relative;
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+footer {
+    float: left;
+}
+#top12 {
+    position: relative;
+    width: 1350px;
+    height: 1000px;
+    margin-top: 100px;
+    left: 40px;
+    padding: 50px;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    overflow: hidden;
+}
+#top12 div{
+    float: left;
+    height: 415px;
+    margin: 30px;
+    overflow: hidden;
+}
+#top12 >h2,p {
+    font-size: 1.2em;
+    color: black;
+}
+#top12 div:hover {
+    overflow: visible;
+}
+#top12 img {
+    width: 368px;
+    height: 350px;
+    z-index: 1;
+    object-fit: cover;
+}
+#top12 img:hover {
+    position: relative;
+    transition: 0.75s;
+    filter: brightness(60%);
+    z-index: -2;
+}
+#top12 button {
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #dad9ff;
+    color: black;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+footer ul {
+    margin-top: 20px;
+    float: left;
+    margin-left: 620px;
+}
+footer ul li {
+    float: left;
+    padding: 10px;
+    margin: 0 10px;
+}
+footer ul li a {
+    color: black;
+    font-weight: bold;
+}
+footer address {
+    font-style: normal;
+    font-size: 1em;
+    margin-right: 120px;
+    margin-top: 70px;
+}
+
+#btn1, #btn2 {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    z-index: 10;
+}
+#btn1:hover, #btn2:hover {
+    background-color: #a4a1ee;
+}
+.hov {
+    position: relative;
+    width: 350px;
+    top: -350px;
+    color: white;
+    z-index: -1;
+}
+

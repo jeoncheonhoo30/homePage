@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/calender.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            
+        <div id="logo">
+            <a href="index.html" >
+            <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+            </a>
+            <a href="index.html"><h1 id="Tripadvisor">Tripadvisor</h1></a>
+        </div>
+
+        <div id="top_menu">
+            <a href="#">리뷰</a>
+            <a href="#">여행</a>
+            <a href="#">알림</a>
+            <div id="wrap">
+                <form class="login_form">
+                    <input id="loginBtn" type="button" value="로그인" onclick="showPopup();" />
+                </form>
+            </div>
+            <script src="login.js"></script>
+        </div>
+
+        <nav>
+            <ul>
+                <h1>대한민국 둘러보기</h1>
+                <li ><a href="calender.html" id="hotel">공지</a></li>
+                <li id="joy"><a href="index.html">즐길거리</a></li>
+                <li><a href="#" id="food1">음식점</a></li>
+                <li><a href="#">항공권</a></li>
+                <li id="rr"><a href="#">렌터카</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <input type="date" id='currentDate'/>
+    <script>
+        function showPopup() { window.open("popup.html", "a", "width=420, height=330, left=100, top=50"); }
+        document.getElementById('currentDate').value = new Date().toISOString().substring(0, 10);;
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+@charset "UTF-8";
+h1 {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    left: 300px;
+}
+.swiper-container {
+    width: 1292px;
+    height:743px;
+    top: 100px;
+    border:5px solid silver;
+    border-radius:7px;
+    box-shadow:0 0 20px #ccc inset;
+}
+.swiper-slide {
+    text-align:center;
+    align-items:center; /* 위아래 기준 중앙정렬 */
+    justify-content:center; /* 좌우 기준 중앙정렬 */
+}
+.swiper-slide img {
+	box-shadow:0 0 5px #555;
+}
+#closeBtn {
+    padding: 8px 10px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    margin-top: 150px;
+}
+#closeBtn:hover {
+    background-color: #a4a1ee;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/korea.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <title>swiper</title>
+</head>
+<body>
+    <h1>대한민국의 사진 모아보기</h1>
+    <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/korea/south-korea.jpg"></div>
+            <div class="swiper-slide"><img src="images/korea/south-korea1.jpg"></div>
+            <div class="swiper-slide"><img src="images/korea/autumn-colors-in-korea.jpg"></div>
+            <div class="swiper-slide"><img src="images/korea/oedo-uninhibited-botanical.jpg"></div>
+            <div class="swiper-slide"><img src="images/korea/photo1jpg.jpg"></div>
+            <div class="swiper-slide"><img src="images/korea/photo5jpg.jpg"></div>
+        </div>
+        <!-- 네비게이션 버튼 -->
+	    <div class="swiper-button-next"></div><!-- 다음 버튼 (오른쪽에 있는 버튼) -->
+	    <div class="swiper-button-prev"></div><!-- 이전 버튼 -->
+
+	    <!-- 페이징 -->
+	    <div class="swiper-pagination"></div>
+    </div>
+    <input id="closeBtn" type="button" value="뒤로가기" onclick="history.go(-1)"/>
+    <script>
+        // swiper1
+new Swiper('.swiper1', {
+	pagination : { // 페이징 설정
+		el : '.swiper-pagination',
+		clickable : true, // 페이징을 클릭하면 해당 영역으로 이동, 필요시 지정해 줘야 기능 작동
+	},
+	navigation : { // 네비게이션 설정
+		nextEl : '.swiper-button-next', // 다음 버튼 클래스명
+		prevEl : '.swiper-button-prev', // 이번 버튼 클래스명
+	},
+});
+    </script>
+</div>
+</body>
+</html>
